@@ -60,17 +60,17 @@ const profile = function(){
                   <div class="card-footer">
                     <div class="button-container">
                       <button type="button"  class="btn btn-icon btn-round btn-facebook">
-                      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://adsweekly.onrender.com/register/`+data.userID+`">
+                      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://click-adilla.onrender.com/register/`+data.userID+`">
                       <i class="fab text-info fa-facebook"></i>
                       </a>
                       </button>
                       <button type="button"  class="btn btn-icon btn-round btn-twitter">
-                        <a target="_blank" href="https://twitter.com/intent/tweet?url=https://adsweekly.onrender.com/register/`+data.userID+`" class="">
+                        <a target="_blank" href="https://twitter.com/intent/tweet?url=https://click-adilla.onrender.com/register/`+data.userID+`" class="">
                           <i class="fab text-info fa-twitter"></i>
                         </a>
                       </button>
                       <button type="button"  class="btn btn-icon btn-round btn-google">
-                      <a target="_blank" href="https://api.whatsapp.com/send?text=https://adsweekly.onrender.com/register/`+data.userID+`" class="">
+                      <a target="_blank" href="https://api.whatsapp.com/send?text=https://click-adilla.onrender.com/register/`+data.userID+`" class="">
                         <i class="fab text-success fa-whatsapp"></i>
                       </a>
                       </button>
@@ -133,17 +133,17 @@ const profile = function(){
                   <div class="card-footer">
                     <div class="button-container">
                       <button type="button"  class="btn btn-icon btn-round btn-facebook">
-                      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://adsweekly.onrender.com/register/`+data.userID+`">
+                      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://click-adilla.onrender.com/register/`+data.userID+`">
                       <i class="fab text-info fa-facebook"></i>
                       </a>
                       </button>
                       <button type="button"  class="btn btn-icon btn-round btn-twitter">
-                        <a target="_blank" href="https://twitter.com/intent/tweet?url=https://adsweekly.onrender.com/register/`+data.userID+`" class="">
+                        <a target="_blank" href="https://twitter.com/intent/tweet?url=https://click-adilla.onrender.com/register/`+data.userID+`" class="">
                           <i class="fab text-info fa-twitter"></i>
                         </a>
                       </button>
                       <button type="button"  class="btn btn-icon btn-round btn-google">
-                      <a target="_blank" href="https://api.whatsapp.com/send?text=https://adsweekly.onrender.com/register/`+data.userID+`" class="">
+                      <a target="_blank" href="https://api.whatsapp.com/send?text=https://click-adilla.onrender.com/register/`+data.userID+`" class="">
                         <i class="fab text-success fa-whatsapp"></i>
                       </a>
                       </button>
@@ -386,17 +386,17 @@ const profilePage = function(){
                             <div class="card-footer">
                               <div class="button-container">
                                 <button type="button"  class="btn btn-icon btn-round btn-facebook">
-                                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://adsweekly.onrender.com/register/`+data.userID+`">
+                                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://click-adilla.onrender.com/register/`+data.userID+`">
                                 <i class="fab text-info fa-facebook"></i>
                                 </a>
                                 </button>
                                 <button type="button"  class="btn btn-icon btn-round btn-twitter">
-                                  <a target="_blank" href="https://twitter.com/intent/tweet?url=https://adsweekly.onrender.com/register/`+data.userID+`" class="">
+                                  <a target="_blank" href="https://twitter.com/intent/tweet?url=https://click-adilla.onrender.com/register/`+data.userID+`" class="">
                                     <i class="fab text-info fa-twitter"></i>
                                   </a>
                                 </button>
                                 <button type="button"  class="btn btn-icon btn-round btn-google">
-                                <a target="_blank" href="https://api.whatsapp.com/send?text=https://adsweekly.onrender.com/register/`+data.userID+`" class="">
+                                <a target="_blank" href="https://api.whatsapp.com/send?text=https://click-adilla.onrender.com/register/`+data.userID+`" class="">
                                   <i class="fab text-success fa-whatsapp"></i>
                                 </a>
                                 </button>
@@ -459,17 +459,17 @@ const profilePage = function(){
                             <div class="card-footer">
                               <div class="button-container">
                                 <button type="button"  class="btn btn-icon btn-round btn-facebook">
-                                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://adsweekly.onrender.com/register/`+data.userID+`">
+                                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://click-adilla.onrender.com/register/`+data.userID+`">
                                 <i class="fab text-info fa-facebook"></i>
                                 </a>
                                 </button>
                                 <button type="button"  class="btn btn-icon btn-round btn-twitter">
-                                  <a target="_blank" href="https://twitter.com/intent/tweet?url=https://adsweekly.onrender.com/register/`+data.userID+`" class="">
+                                  <a target="_blank" href="https://twitter.com/intent/tweet?url=https://click-adilla.onrender.com/register/`+data.userID+`" class="">
                                     <i class="fab text-info fa-twitter"></i>
                                   </a>
                                 </button>
                                 <button type="button"  class="btn btn-icon btn-round btn-google">
-                                <a target="_blank" href="https://api.whatsapp.com/send?text=https://adsweekly.onrender.com/register/`+data.userID+`" class="">
+                                <a target="_blank" href="https://api.whatsapp.com/send?text=https://click-adilla.onrender.com/register/`+data.userID+`" class="">
                                   <i class="fab text-success fa-whatsapp"></i>
                                 </a>
                                 </button>
