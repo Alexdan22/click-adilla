@@ -5426,6 +5426,38 @@ app.post("/api/paymentVerification", function(req, res){
   }
 }); //adw
 
+app.post("/qrData", async (req, res) =>{
+ if(!req.session.admin){
+   res.redirect('/adminLogin');
+ }else{
+   try {
+     // Fetch data from MongoDB
+     const data = await Data.findOne();
+     if (!data) {
+       const qr = new Data({
+         text: "dummy@upiId"
+       });
+       qr.save();
+       res.redirect('/admin');
+     }else{
+           
+       //Update QR or UPI details
+       Data.updateOne({}, {$set:{text:req.body.upi}}, function(err){
+         if(err){
+           console.log(err);
+         }
+       });
+       res.redirect('/admin');
+     }
+     
+
+   } catch (error) {
+     console.log(error);
+   }
+
+ }
+});
+
 app.post("/api/paymentGateway", function(req, res){
   const timeZone = 'Asia/Kolkata';
   const currentTimeInTimeZone = DateTime.now().setZone(timeZone);

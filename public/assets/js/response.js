@@ -1285,7 +1285,7 @@ const paymentGateway = function(clickedButton){
                            </div>
                            <div class="form-group text-center col-6">
                              <input type="text" autocomplete="off" id="amount" disabled name="amount" class="form-control text-center" value="`+data.amount+`" required>
-                               <input type="text" autocomplete="off" id="tier" hidden name="amount" class="form-control text-center" value="`+data.tier+`" required>
+                               <input type="text" autocomplete="off" id="tier" hidden name="tier" class="form-control text-center" value="`+data.tier+`" required>
                            </div>
                            <div class="col">
 

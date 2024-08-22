@@ -185,7 +185,7 @@
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
-                    <div class="modal-content">
+                    <div class="modal-content  white-content">
                       <div class="modal-header">
                         <h4 class=" fs-5" id="exampleModalLabel">Today's Task</h4>
                       </div>
@@ -197,7 +197,7 @@
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" onclick="dailyTask()" id="dailyTask" disabled class="btn btn-primary" data-bs-dismiss="modal">Done</button>
+                        <button type="button" onclick="dailyTask()" id="dailyTask" disabled class="btn btn-success" data-bs-dismiss="modal">Done</button>
                       </div>
                     </div>
                   </div>
@@ -221,7 +221,7 @@
                       <div class="text-center col">
                         <%  if(task.status == "Active"){  %>
                           <h5 class="text-end text-white card-category">Today's Task</h5>
-                          <h5 class="text-end text-white card-title text-sm btn btn-sm btn-simple active btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModal">Start</h5>
+                          <h5 class="text-end text-white card-title text-sm btn btn-sm btn-simple active btn-success" data="white-content"  data-bs-toggle="modal" data-bs-target="#exampleModal">Start</h5>
                       <%  }else{  %>
                           <h5 class="text-end text-white card-category">Renews tommorow at</h5>
                           <h5 class="text-end text-white card-title text-sm">1:00am</h5>
@@ -232,7 +232,7 @@
                     <div class="row">
                       <div class="text-center col">
                         <h5 class="card-category text-white">Package</h5>
-                        <h5 class="card-title text-sm  text-white"> <%=task.tier%> - <%= currentPackage %> <span class="card-category">/-</span></h5>
+                        <h5 class="card-title text-sm  text-white"> <%= currentPackage %> <span class="card-category text-white">/-</span></h5>
                       </div>
                       <div class="text-center col">
                         <h5 class="text-end card-category text-white">Day</h5>
