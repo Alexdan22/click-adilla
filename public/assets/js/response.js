@@ -719,46 +719,46 @@ const dashboard = function(){
                   <div class="card-header ">
                     <div class="row">
                       <div class="col-sm-6 text-left">
-                        <h2 class="card-title text-white">Overview</h2>
+                        <h2 class="card-title ">Overview</h2>
                       </div>
                     </div>
                   </div>
                   <div class="card-body">
                     <div class="my-3">
                       <div class="text-center mb-2">
-                        <h5 class="card-category text-white text-sm">Available Balance: <span class="font-weight-bold">`+data.availableBalance+`  </span></h5>
+                        <h5 class="card-category  text-sm">Available Balance: <span class="font-weight-bold">`+data.availableBalance+`  </span></h5>
                       </div>
                       <hr class="horizontal">
                       <div class="row">
                         <div class="text-center col">
-                          <h5 class="card-category text-white">Total Income</h5>
-                          <h4 class="card-title text-white"> `+data.totalIncome+` <span class="card-category text-white">/-</span></h4>
+                          <h5 class="card-category ">Total Income</h5>
+                          <h4 class="card-title "> `+data.totalIncome+` <span class="card-category ">/-</span></h4>
                         </div>
                         <div class="text-center col">
-                          <h5 class="text-end card-category text-white">Weekly Income</h5>
-                          <h4 class="text-end card-title text-white"> `+data.royal+` <span class="card-category text-white">/-</span></h4>
+                          <h5 class="text-end card-category ">Weekly Income</h5>
+                          <h4 class="text-end card-title "> `+data.royal+` <span class="card-category ">/-</span></h4>
                         </div>
                       </div>
                       <hr class="horizontal">
                       <div class="row">
                         <div class="text-center col">
-                          <h5 class="card-category text-white">Direct Income</h5>
-                          <h4 class="card-title text-white">`+data.direct+` <span class="card-category text-white">/-</span></h4>
+                          <h5 class="card-category ">Direct Income</h5>
+                          <h4 class="card-title ">`+data.direct+` <span class="card-category ">/-</span></h4>
                         </div>
                           <div class="text-center col">
-                            <h5 class="card-category text-white">Level Income</h5>
-                            <h4 class="card-title text-white">`+data.level+` <span class="card-category text-white">/-</span></h4>
+                            <h5 class="card-category ">Level Income</h5>
+                            <h4 class="card-title ">`+data.level+` <span class="card-category ">/-</span></h4>
                           </div>
                       </div>
                       <hr class="horizontal">
                       <div class="row">
                         <div class="text-center col">
-                          <h5 class="card-category text-white">Team Earnings</h5>
-                          <h4 class="card-title text-white">`+data.team+` <span class="card-category text-white">/-</span></h4>
+                          <h5 class="card-category ">Team Earnings</h5>
+                          <h4 class="card-title ">`+data.team+` <span class="card-category ">/-</span></h4>
                         </div>
                         <div class="text-center col">
-                          <h5 class="text-end card-category text-white">Club Earnings</h5>
-                          <h4 class="text-end card-title text-white">`+data.franchise+` <span class="card-category text-white">/-</span></h4>
+                          <h5 class="text-end card-category ">Club Earnings</h5>
+                          <h4 class="text-end card-title ">`+data.franchise+` <span class="card-category ">/-</span></h4>
                         </div>
                       </div>
 
@@ -906,7 +906,7 @@ const dashboard = function(){
                           <div class="card-header ">
                             <div class="row">
                               <div class="col-sm-6 text-left">
-                                <h4 class="card-title text-white text-center">Current Plan Details</h4>
+                                <h4 class="card-title  text-center">Current Plan Details</h4>
                               </div>
                             </div>
                           </div>
@@ -914,23 +914,23 @@ const dashboard = function(){
 
                               <div class="row">
                                 <div class="text-center col">
-                                  <h5 class="card-category text-white">Plan Status</h5>
-                                  <h5 class="card-title text-white text-sm">`+data.task.status+`<i class="tim-icons icon-sound-wave text-info"></i></h5>
+                                  <h5 class="card-category ">Plan Status</h5>
+                                  <h5 class="card-title  text-sm">`+data.task.status+`<i class="tim-icons icon-sound-wave text-info"></i></h5>
                                 </div>
                                 <div class="text-center col">
                                     <h5 class="text-end card-category">Renews tommorow at</h5>
-                                    <h5 class="text-end text-white card-title text-sm">1:00am</h5>
+                                    <h5 class="text-end  card-title text-sm">1:00am</h5>
                                 </div>
                               </div>
                               <hr class="horizontal">
                               <div class="row">
                                 <div class="text-center col">
-                                  <h5 class="card-category text-white">Package</h5>
-                                  <h5 class="card-title text-sm text-white"> `+data.task.tier+` -  `+data.currentPackage+`  <span class="card-category">/-</span></h5>
+                                  <h5 class="card-category ">Package</h5>
+                                  <h5 class="card-title text-sm "> `+data.task.tier+` -  `+data.currentPackage+`  <span class="card-category">/-</span></h5>
                                 </div>
                                 <div class="text-center col">
-                                  <h5 class="text-end card-category text-white">Day</h5>
-                                  <h5 class="text-end card-title text-sm text-white">`+data.task.day+`s</h5>
+                                  <h5 class="text-end card-category ">Day</h5>
+                                  <h5 class="text-end card-title text-sm ">`+data.task.day+`s</h5>
                                 </div>
                               </div>
 
@@ -945,30 +945,30 @@ const dashboard = function(){
                           <div class="card-header ">
                             <div class="row">
                               <div class="col-sm-6 text-left">
-                                <h4 class="card-title text-white text-center">Current Plan Details</h4>
+                                <h4 class="card-title  text-center">Current Plan Details</h4>
                               </div>
                             </div>
                           </div>
                           <div class="card-body">
                               <div class="row">
                                 <div class="text-center col">
-                                  <h5 class="card-category text-white">Plan Status</h5>
-                                  <h5 class="card-title text-white text-sm">No Active Plan<i class="tim-icons icon-sound-wave text-info"></i></h5>
+                                  <h5 class="card-category ">Plan Status</h5>
+                                  <h5 class="card-title  text-sm">No Active Plan<i class="tim-icons icon-sound-wave text-info"></i></h5>
                                 </div>
                                 <div class="text-center col">
-                                  <h5 class="text-end text-white card-category">Enroll time</h5>
-                                  <h5 class="text-end text-white card-title text-sm">Nil</h5>
+                                  <h5 class="text-end  card-category">Enroll time</h5>
+                                  <h5 class="text-end  card-title text-sm">Nil</h5>
                                 </div>
                               </div>
                               <hr class="horizontal">
                               <div class="row">
                                 <div class="text-center col">
-                                  <h5 class="card-category text-white">Package</h5>
-                                  <h5 class="card-title text-sm text-white"> 0 <span class="card-category text-success">/-</span></h5>
+                                  <h5 class="card-category ">Package</h5>
+                                  <h5 class="card-title text-sm "> 0 <span class="card-category text-success">/-</span></h5>
                                 </div>
                                 <div class="text-center col">
-                                  <h5 class="text-end text-white card-category">Day</h5>
-                                  <h5 class="text-end text-white card-title text-sm">0</h5>
+                                  <h5 class="text-end  card-category">Day</h5>
+                                  <h5 class="text-end  card-title text-sm">0</h5>
                                 </div>
                               </div>
 
