@@ -4869,6 +4869,7 @@ app.get('/manualOverride/updateTask', function(req, res){
     res.redirect("/adminLogin");
   }else{
     const currentTimeInTimeZone = DateTime.now().setZone(timeZone);
+    console.log('I was run');
     console.log(`I was run at ${currentTimeInTimeZone.minute}, ${currentTimeInTimeZone.hour}`);
 
     const scheduledMinute = currentTimeInTimeZone.minute;
@@ -5017,7 +5018,7 @@ var job = schedule.scheduleJob('0 * * * * *', function(scheduledTime){
              });
            }
 
-           if(scheduledMinute == 1 && scheduledHour == 1){
+           if(scheduledMinute == 11 && scheduledHour == 1){
 
           //Checking Active User details
             if(users.task.status == "Cooldown"){
